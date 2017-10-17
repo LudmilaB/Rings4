@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Shapes Mania</title> 
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+
+<meta charset="utf-8">
+<meta name="keywords" content="puzzles, puzzle games, free, online games, free games, free online games, free puzzle games">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<body>
+<div class="container">
+
+ <h2 class="title_sm"><span class="red">R</span><span class="green">i</span><span class="orange">n<span class="blue">g</span><span class="red">s</span><span class="green"> 4</span><span class="orange">x<span class="blue">4</span></h2>
+ <h3>Insert as many rings as you can</h3>
+
+<table class="heading">
+  <tbody>
+     <tr>
+      <td><button id="restart-button" onclick="StartGame()" type ="button">New Game</button></td>	  
+	  <td id="score_td">
+        <div id="score-container">0</div>
+        <div id="best-container">0</div>
+      </td>      
+    </tr>
+</tbody>
+</table>
+<div id="canvasContainer"><canvas id="myCanvas" width="500" height="500" onclick="startCircle(event)"></canvas>
+ <div class="game-message">
+        <div><p></p></div>
+        <div class="lower">
+	        <button id ="keep-playing-button" onClick="ContinueGame()" >Continue</button>
+            <button id ="retry-button" onclick="StartGame()">Try again</button>
+			
+      </div>
+</div>
+<p class="game-explanation"><b>HOW TO PLAY:</b> Drag a new ring from outside into the table. If a cell already has a ring or rings, you can add the new ring if it is larger than the existing ring or rings. You can re-drag the largest ring from one cell into another. If a cell contains all four sizes of rings, they all disappear and the cell becomes empty again.</p>
+<div id="bottom">© Shapes Mania</div>
+</div>
+</div>
+
+<script src="cordova.js"></script>
+<script src="js/rings4.js"></script>
+ </body>
+</html>
