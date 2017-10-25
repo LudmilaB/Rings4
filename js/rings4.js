@@ -293,7 +293,7 @@ function mouseDownListener(evt) {
 				{
 					messageContainer = document.querySelector(".game-message");
 					messageContainer.classList.add("game-over");
-					messageContainer.getElementsByTagName("p")[0].textContent ="Game over!";
+					messageContainer.getElementsByTagName("p")[0].textContent ="Out of moves";
 	//				ShareScore();
 				}
 				
