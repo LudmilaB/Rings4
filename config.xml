@@ -3,7 +3,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets" 
    xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shapesmania.rings4" version = "1.02">
    
-   <name>Rings 4x</name>
+   <name>Rings 4x4</name>
    
    <description>
       Insert as many rings as you can
